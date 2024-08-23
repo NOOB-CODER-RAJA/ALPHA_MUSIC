@@ -16,12 +16,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this value from @FallenxBot on Telegram by /id
+# Get this value from @purvi_music_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 7403621976))
 
 ## Fill these variables if you're deploying on heroku.
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/abhi_paswan_official")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/STUDY_POINT_GROUP1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Q25anL0Ckuk5NzM1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -61,7 +61,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @StringFatherBot on Telegram
+# Get your pyrogram v2 session from @king_string_session_bot on Telegram
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ff604ef09ea166badd9ba.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/23b6b848d6f48f97801a5.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/ff604ef09ea166badd9ba.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/9e100936707874c240972.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/ff604ef09ea166badd9ba.jpg"
-STATS_IMG_URL = "https://graph.org/file/ff604ef09ea166badd9ba.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/fbae7ca76c73d9603a0b2.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/6d0cc0300152510dfd999.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/6d0cc0300152510dfd999.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
